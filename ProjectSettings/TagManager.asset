@@ -14,7 +14,7 @@ TagManager:
   - UI
   - Boid
   - Obstacle
-  - 
+  - Trails
   - 
   - 
   - 
@@ -41,4 +41,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Obstacles
+    uniqueID: 3059376759
+    locked: 0
+  - name: Trail
+    uniqueID: 457489537
     locked: 0

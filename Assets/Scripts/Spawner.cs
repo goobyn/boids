@@ -5,7 +5,7 @@ using UnityEngine;
 [System.Serializable]
 public class BoidSettings
 {
-    public int velocity = 32;
+    public int velocity = 24;
     public int neighborDist = 10;
     public int nearDist = 4;
     public int attractPushDist = 5;
@@ -17,8 +17,8 @@ public class BoidSettings
     public float attractPull = 1f;
     public float attractPush = 20f;
     public float verticalRecoveryForce = 1.25f;
-    public float obstacleAvoidanceWeight = 100f;
-    public float obstacleAvoidanceDistance = 12f;   
+    public float obstacleAvoidanceWeight = 4000f;
+    public float obstacleAvoidanceDistance = 30f;   
 
     [Header("How quickly the boid turns")]
     public float velocityEasing = 0.08f;

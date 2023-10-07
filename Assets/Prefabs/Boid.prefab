@@ -59,7 +59,7 @@ TrailRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: dae12b25b4ea15e458920433f4a9131e, type: 2}
+  - {fileID: 2100000, guid: a5b57e2add5bd7839ab2e9f5abad8e37, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -77,8 +77,8 @@ TrailRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 457489537
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Time: 1
   m_PreviewTimeScale: 1

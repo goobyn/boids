@@ -2994,7 +2994,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpawnObstacle__ctor_m1A9144A688E4A1B8C9D
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoidSettings__ctor_mE45A88C2430F857D8A5453652470453F0AAAA1B0 (BoidSettings_tF79B5F94F2B49221F7A6A5D29A050F4145257CA8* __this, const RuntimeMethod* method) 
 {
 	{
-		__this->___velocity = ((int32_t)32);
+		__this->___velocity = ((int32_t)24);
 		__this->___neighborDist = ((int32_t)10);
 		__this->___nearDist = 4;
 		__this->___attractPushDist = 5;
@@ -3004,8 +3004,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoidSettings__ctor_mE45A88C2430F857D8A54
 		__this->___attractPull = (1.0f);
 		__this->___attractPush = (20.0f);
 		__this->___verticalRecoveryForce = (1.25f);
-		__this->___obstacleAvoidanceWeight = (100.0f);
-		__this->___obstacleAvoidanceDistance = (12.0f);
+		__this->___obstacleAvoidanceWeight = (4000.0f);
+		__this->___obstacleAvoidanceDistance = (30.0f);
 		__this->___velocityEasing = (0.0799999982f);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
